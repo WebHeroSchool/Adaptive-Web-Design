@@ -1,0 +1,33 @@
+.body {
+	position: relative;
+	font-family: "PT Sans Narrow", sans-serif;
+	text-align: center;
+}
+
+#headline {
+	font-family: "Fondamento", cursive, sans-serif;
+}
+
+.article__text {
+	font-family: "PT Sans Narrow", sans-serif;
+}
+
+@media (min-width: 320px) {
+	.header__headline {
+		font-size: 15px;
+	}
+
+	.article__text {
+		font-size: 10px;
+	}
+}
+
+@media (min-width: 641px) {
+	.header__headline {
+		font-size: 45px;
+	}
+
+	.article__text {
+		font-size: 35px;
+	}
+}
