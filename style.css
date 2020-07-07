@@ -12,7 +12,32 @@
 	font-family: "PT Sans Narrow", sans-serif;
 }
 
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	background: #e6e6fa;
+}
+
+.nav__item {
+	color: black;
+	padding: 15px 10px;
+	text-decoration: none;
+}
+
+.nav__item:hover {
+	background: #f0f8ff;
+}
+
 @media (min-width: 320px) {
+	.nav {
+		justify-content: space-around;
+		font-size: 13px;
+	}
+
+	.nav__item {
+		flex-grow: 1;
+	}
+
 	.header__headline {
 		font-size: 15px;
 	}
@@ -23,6 +48,15 @@
 }
 
 @media (min-width: 641px) {
+	.nav {
+		justify-content: space-around;
+		font-size: 25px;
+	}
+
+	.nav__item {
+		flex-grow: 1;
+	}
+
 	.header__headline {
 		font-size: 45px;
 	}
